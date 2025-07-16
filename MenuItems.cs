@@ -8,7 +8,7 @@ namespace Restaurant_menu;
 
 public class MenuItems
 {
-    private enum Category
+    public enum Category
     {
         Appetizer,
         MainCourse,
@@ -21,5 +21,6 @@ public class MenuItems
     public string Description { get; set; } = string.Empty;
     public decimal Price { get; set; } = 0.0m;
 
-    
+    public Category ItemCategory { get; set; } = Category.MainCourse;
+
 }
