@@ -1,0 +1,15 @@
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\bin\Debug\net9.0\Restaurant-menu.exe
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\bin\Debug\net9.0\Restaurant-menu.deps.json
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\bin\Debug\net9.0\Restaurant-menu.runtimeconfig.json
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\bin\Debug\net9.0\Restaurant-menu.dll
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\bin\Debug\net9.0\Restaurant-menu.pdb
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.AssemblyInfoInputs.cache
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.AssemblyInfo.cs
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.csproj.CoreCompileInputs.cache
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.sourcelink.json
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.dll
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\refint\Restaurant-menu.dll
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.pdb
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\Restaurant-menu.genruntimeconfig.cache
+C:\Users\Drago\Desktop\Repos\CS1400\WeekOneAssignments\Restaurant-menu\obj\Debug\net9.0\ref\Restaurant-menu.dll
