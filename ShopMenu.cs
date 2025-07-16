@@ -22,7 +22,14 @@ public class ShopMenu
         var itemToRemove = Items.FirstOrDefault(i => i.Id == id);
         if (itemToRemove != null)
         {
+            int tempId = itemToRemove.Id;
+            // Remove the item from the list
             Items.Remove(itemToRemove);
+            // Update IDs of items after the removed item  
+            foreach (var item in Items.Where(i => i.Id > tempId))
+            {
+                item.Id--;
+            }
         }
     }
     public void PrintMenu()
@@ -43,6 +50,49 @@ public class ShopMenu
             itemToUpdate.ItemCategory = updatedItem.ItemCategory;
         }
     }
+    // Overloaded method to update only the name
+    public void UpdateItem(int id, string newName, string newDescription = null)
+    {
+        var itemToUpdate = Items.FirstOrDefault(i => i.Id == id);
+        if (itemToUpdate != null)
+        {
+            itemToUpdate.Name = newName;
+            if (newDescription != null)
+            {
+                itemToUpdate.Description = newDescription;
+            }
+        }
+        else
+        {
+            throw new Exception("Item not found");
+        }
+    }
+    // Overloaded method to update only the price
+    public void UpdateItem(int id, decimal newPrice)
+    {
+        var itemToUpdate = Items.FirstOrDefault(i => i.Id == id);
+        if (itemToUpdate != null)
+        {
+            itemToUpdate.Price = newPrice;
+        }
+        else
+        {
+            throw new Exception("Item not found");
+        }
+    }
+    // Overloaded method to update only the category
+    public void UpdateItem(int id, MenuItems.Category newCategory)
+    {
+        var itemToUpdate = Items.FirstOrDefault(i => i.Id == id);
+        if (itemToUpdate != null)
+        {
+            itemToUpdate.ItemCategory = newCategory;
+        }
+        else
+        {
+            throw new Exception("Item not found");
+        }
+    }
 
     //finding items by ID or category
     public MenuItems GetItemById(int id)
@@ -57,6 +107,11 @@ public class ShopMenu
     public List<MenuItems> GetItemsByName(string name)
     {
         return Items.Where(i => i.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+    // Finding items by price range
+    public List<MenuItems> GetItemsByPriceRange(decimal minPrice, decimal maxPrice)
+    {
+        return Items.Where(i => i.Price >= minPrice && i.Price <= maxPrice).ToList();
     }
 
     // Clear the menu
