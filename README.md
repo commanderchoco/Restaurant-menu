@@ -73,7 +73,7 @@
 ## About The Project
 
 This was a project for class that was meant for showing a menu example in C#'s terminal. Once ran, the application will print a menu for a fictional restaurant.
-Users are able to add items to, update, and search for items in the menu. The purpose of this application is to highlight basic list functionality in C#, as the functions all use built-in list functions.
+Users are able to add items to, update, clear, and search for items in the menu. The purpose of this application is to highlight how back-end connections work in programming using C#. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
