@@ -130,7 +130,7 @@ Distributed under the GNU GPLv3. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Matthew Long - [@bluebandannadog](https://bsky.app/profile/bluebandannadog.bsky.social) - matthewclong95@gmail.com.com
+Matthew Long - [@bluebandannadog](https://bsky.app/profile/bluebandannadog.bsky.social) - matthewclong95@gmail.com
 
 Project Link: [https://github.com/commanderchoco/Restaurant-menu](https://github.com/commanderchoco/Restaurant-menu)
 
