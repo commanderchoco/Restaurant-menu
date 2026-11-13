@@ -33,7 +33,7 @@
 <h3 align="center">Restaurant-menu</h3>
 
   <p align="center">
-    Application to show an example of backend connections using Pulumi.
+    Application to show the use of lists in C#
     <br />
     <a href="https://github.com/commanderchoco/Restaurant-menu"><strong>Explore the docs »</strong></a>
     <br />
@@ -73,7 +73,7 @@
 ## About The Project
 
 This was a project for class that was meant for showing a menu example in C#'s terminal. Once ran, the application will print a menu for a fictional restaurant.
-Users are able to add items to, update, clear, and search for items in the menu. The purpose of this application is to highlight how back-end connections work in programming using C#. 
+Users are able to add items to, update, clear, and search for items in the menu. The purpose of this application is to highlight the functionality of Lists in C#. All of the imports are System imports.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
