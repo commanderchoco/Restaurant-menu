@@ -72,7 +72,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This was a project for class that was meant for showing a menu example in C#'s terminal
+This was a project for class that was meant for showing a menu example in C#'s terminal. Once ran, the application will print a menu for a fictional restaurant.
+Users are able to add items to, update, and search for items in the menu. The purpose of this application is to highlight basic list functionality in C#, as the functions all use built-in list functions.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -129,7 +130,7 @@ Distributed under the GNU GPLv3. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@bluebandannadog](https://bsky.app/profile/bluebandannadog.bsky.social) - matthewclong95@gmail.com.com
+Matthew Long - [@bluebandannadog](https://bsky.app/profile/bluebandannadog.bsky.social) - matthewclong95@gmail.com.com
 
 Project Link: [https://github.com/commanderchoco/Restaurant-menu](https://github.com/commanderchoco/Restaurant-menu)
 
